@@ -18,12 +18,10 @@ class App extends Component {
                     <Navbar/>
 
                     {/*Content Components (pages)*/}
-
                     <Switch>
                         <Route exact path="/" component={MainPage}/>
                         <Route path="/cv-maker" component={CvMaker}/>
                     </Switch>
-
 
                     {/*Footer*/}
                     <Footer/>

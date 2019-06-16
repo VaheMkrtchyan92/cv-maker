@@ -1,0 +1,21 @@
+.sort-table{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.noul-ui-sortable{
+    list-style-type: none;
+    margin-top: 15px;
+}
+.noul-ui-sortable li{
+    padding: 15px;
+    background-color: #7777bb;
+    cursor: pointer;
+    border: 1px solid black;
+    /*margin: 2px;*/
+}
+.section-basic{
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 15px;
+}

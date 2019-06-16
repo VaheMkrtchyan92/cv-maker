@@ -1,0 +1,40 @@
+.asking-questions{
+    width: 100%;
+    min-height: 80vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.question-text{
+    margin :0px;
+    text-align: center;
+    background-color: black;
+    color: #8c91ff;
+
+}
+.question-block-1{
+    width: 80%;
+
+    color: white;
+
+}
+.question-block-2{
+    width: 80%;
+
+    color: white;
+
+}
+.border-block{
+    background-color: #333333;
+    margin: 10px;
+    border: 5px solid #333333;
+    border-radius: 5px;
+   padding: 10px;
+
+}
+.border-block h4{
+    color: #8c91ff;
+}

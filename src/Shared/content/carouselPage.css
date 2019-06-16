@@ -1,0 +1,28 @@
+.carousel-inner{
+    height: 40vh !important;
+}
+.carousel-indicators{
+    display: none;
+}
+ .img_3 {
+     margin-top: 10px;
+    height: 15vh;
+    border-radius: 50%;
+
+
+}
+
+.text-slide{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.text-slides{
+    color: white;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}

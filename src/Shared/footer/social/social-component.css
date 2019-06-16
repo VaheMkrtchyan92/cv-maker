@@ -1,0 +1,30 @@
+.social-par {
+    padding-top: 10px;
+
+    display: flex;
+
+    background-color: #333;
+}
+.social-par a{
+    padding: 10px;
+    color: #8c91ff;
+}
+.contacts{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+
+}
+.contacts i{
+    color: #8c91ff;
+    padding-left: 25px;
+}
+.contacts span{
+    color: white;
+    padding-left: 15px;
+}
+.contacts div{
+  margin: auto;
+}

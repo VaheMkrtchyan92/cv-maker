@@ -1,7 +1,9 @@
 import React from 'react';
 import "./good-comented.css";
 import CarouselPage from "./CarouselPage";
-import HeaderImage from "../top-header/coverimage/header-image-component";
+import CvCarusel from "../../pages/carusel-cv/carusel-cv-component";
+import TrueFalse from "../../pages/true-falseCv";
+import Question from "../section/questions";
 
 
 class Coment extends React.Component {
@@ -14,13 +16,13 @@ class Coment extends React.Component {
     render() {
         return (
             <>
-                <HeaderImage></HeaderImage>
+                <CvCarusel/>
+                <TrueFalse/>
+                <Question/>
                 <div className="coment-component">
                     <h3 className="ankexc-karciqner">Անկեղծ կարծիքներ <span>Facebook-ից</span></h3>
                     <div className="slider">
-
-                        <CarouselPage />
-
+                        <CarouselPage/>
                     </div>
                 </div>
             </>

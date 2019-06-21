@@ -3,6 +3,10 @@ import "./sort-table-component.css"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import SectionBasic from "../../../sections/basic";
 import SectionEducation from "../../../sections/educations";
+import SectionWork from "../../../sections/works"
+import SectionQualifications from "../../../sections/qualification";
+import SectionInterests from "../../../sections/interest";
+import SectionReferences from "../../../sections/reference";
 
 export default class SortTable extends React.Component {
     render() {
@@ -13,13 +17,13 @@ export default class SortTable extends React.Component {
 
                         <li className="item-section-basic"><Link to="/cv-maker/sections/basic">Общая </Link>
                         </li>
-                        <li className="item-section-education"><Link to="/cv-Maker/SectionEducation">Образование</Link>
+                        <li className="item-section-education"><Link to="/cv-Maker/section/education">Образование</Link>
                         </li>
-                        <li className="item-section-work-selected"><Link to="/cv-Maker/SectionWork">Опыт работы</Link>
+                        <li className="item-section-work-selected"><Link to="/cv-Maker/section/work">Опыт работы</Link>
                         </li>
-                        <li className="item-section-qualifications"><Link to="/cv-Maker/SectionWork">Квалификация</Link>
+                        <li className="item-section-qualifications"><Link to="/cv-Maker/sectionq/qualifications">Квалификация</Link>
                         </li>
-                        <li className="item-section-interests"><Link to="/cv-Maker/SectionInterests">Интересы</Link>
+                        <li className="item-section-interests"><Link to="/cv-Maker/section/interests">Интересы</Link>
                         </li>
                         <li className="item-section-references"><Link
                             to="/cv-Maker/SectionReferences">Рекомендации</Link>
@@ -27,62 +31,17 @@ export default class SortTable extends React.Component {
                     </ul>
                     <Switch>
                         <Route exact path="/cv-maker/sections/basic" component={SectionBasic}/>
-                        <Route path="/cv-Maker/SectionEducation" component={SectionEducation}/>
-                        <Route path="/cv-Maker/SectionWork" component={SectionWork}/>
-                        <Route path="/cv-Maker/SectionQualifications" component={SectionQualifications}/>
-                        <Route path="/cv-Maker/SectionInterests" component={SectionInterests}/>
-                        <Route path="/cv-Maker/SectionReferences" component={SectionReferences}/>
+                        <Route path="/cv-Maker/section/education" component={SectionEducation}/>
+                        <Route path="/cv-Maker/section/work" component={SectionWork}/>
+                        <Route path="/cv-Maker/section/qualifications" component={SectionQualifications}/>
+                        <Route path="/cv-Maker/section/interests" component={SectionInterests}/>
+                        <Route path="/cv-Maker/section/references" component={SectionReferences}/>
                     </Switch>
                 </div>
             </Router>
         )
     }
 }
-const SectionWork = () => (
-    <div className="section-work">
-        <h1>fhgidfhgihdfig</h1>
-        <form action="">
-            <input type="text"/>
-            <input type="text"/>
-            <input type="text"/>
-            <input type="text"/>
-            <input type="text"/>
-        </form>
-    </div>
-)
-const SectionQualifications = () => (
-    <div className="section-qualifications">
-        <h1>fhgidfhgihdfig</h1>
-        <form action="">
-            <input type="text"/>
-            <input type="text"/>
-            <input type="text"/>
-            <input type="text"/>
-            <input type="text"/>
-        </form>
-    </div>
-)
-const SectionInterests = () => (
-    <div className="section-interests">
-        <h1>fhgidfhgihdfig</h1>
-        <form action="">
-            <input type="text"/>
-            <input type="text"/>
-            <input type="text"/>
-            <input type="text"/>
-            <input type="text"/>
-        </form>
-    </div>
-)
-const SectionReferences = () => (
-    <div className="section-reference">
-        <h1>fhgidfhgihdfig</h1>
-        <form action="">
-            <input type="text"/>
-            <input type="text"/>
-            <input type="text"/>
-            <input type="text"/>
-            <input type="text"/>
-        </form>
-    </div>
-)
+
+
+

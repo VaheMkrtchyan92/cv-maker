@@ -9,20 +9,26 @@ class ShowDownload extends React.Component {
 
     render() {
         if (this.props.show) {
-            document.body.style.overflow = 'hidden';
+            // document.body.style.overflow = 'hidden';
         } else {
             document.body.style.overflow = 'auto';
             return null;
         }
 
         return (
-            <div className="modal-block">
-                <div className="back-drop-style">
-                    <div className="modal-style">
-                        <h3>Вход для участников</h3>
-                        <div className="input-text">
+            <div className="download-block">
+                <div className="back-download-style">
+                    <div className="download-style">
+                        <h3>Выберите стиль</h3>
+                        <div className="download-input-text">
                             <input type="text" placeholder="Электронная почта"/>
-                            <input type="password" placeholder="Пароль" maxLength="10"/>
+                            <input type="checkbox" placeholder="Пароль" maxLength="10"></input>
+                            <input type="radio" placeholder="Пароль" maxLength="10" hhhhhh />
+                            <input type="checkbox" placeholder="Пароль" maxLength="10"/>
+                            <input type="checkbox" placeholder="Пароль" maxLength="10"/>
+                            <input type="checkbox" placeholder="Пароль" maxLength="10"/>
+                            <input type="checkbox" placeholder="Пароль" maxLength="10"/>
+                            <input type="checkbox" placeholder="Пароль" maxLength="10" />
                         </div>
                         <div className="modal-footer">
                             <button onClick={this.onClose}>

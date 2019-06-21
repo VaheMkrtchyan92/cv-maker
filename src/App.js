@@ -7,6 +7,7 @@ import MainPage from "./pages/main/index";
 import Navbar from "./shared/top-header/Navbar"
 import Footer from "./shared/footer/footer-component";
 
+
 const history = createBrowserHistory();
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
                     <Navbar/>
 
                     {/*Content Components (pages)*/}
+
                     <Switch>
                         <Route exact path="/" component={MainPage}/>
                         <Route path="/cv-maker" component={CvMaker}/>
@@ -25,6 +27,7 @@ class App extends Component {
 
                     {/*Footer*/}
                     <Footer/>
+
                 </Router>
             </div>
         );

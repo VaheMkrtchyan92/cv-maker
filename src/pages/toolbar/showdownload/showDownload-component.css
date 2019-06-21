@@ -1,0 +1,35 @@
+.download-block{
+    display: flex;
+}
+.back-download-style{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    padding: 50px;
+    z-index: 1;
+}
+.download-style{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    max-width: 450px;
+    min-height: 550px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.download-input-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.download-input-text input {
+    padding: 10px;
+    margin: 10px;
+}

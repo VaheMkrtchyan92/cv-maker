@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom'
 class PickButton extends Component {
     render() {
         return (
-            <NavLink to="/cv-maker/sections/basic">e
+            <NavLink to="/cv-maker/sections/basic">
                 <button className="image-text">Pick the best CV format.
                 </button>
             </NavLink>

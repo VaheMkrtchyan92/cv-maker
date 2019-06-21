@@ -30,9 +30,9 @@ class Navbar extends React.Component {
                     </div>
                     <div className="top-header-tex"><h2>Build your CV correctly</h2></div>
                     <div className="login-lang-parent">
-                        <button onClick={this.showModal} id="login-button" value="show Modal">Login</button>
+                        <button onClick={this.showModal} id="login-button" value="show Modal">LOGIN</button>
                         <div className="dropdown">
-                            <button className="dropbtn">Lang</button>
+                            <button className="dropbtn">LANG</button>
                             <div className="dropdown-content">
                                 <a href="#">Arm</a>
                                 <a href="#">Eng</a>

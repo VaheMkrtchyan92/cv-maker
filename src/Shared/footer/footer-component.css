@@ -1,6 +1,5 @@
 .footer {
     width: 100%;
-    /*border-top: 5px solid black;*/
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
